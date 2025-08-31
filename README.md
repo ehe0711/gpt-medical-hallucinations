@@ -75,6 +75,7 @@ Outputs (tables and figures) will be stored in `materials/`.
 - GPT-5 corrected **28.5% of GPT-4 errors**, but regressed in ~10%.  
 - Calibration improved, with fewer high-confidence hallucinations.  
 - Overconfidence persisted — confidence alone is insufficient as a safety metric.  
+- Dataset created of prompts where both GPT-4 and GPT-5 hallucinated; can be accessed at https://huggingface.co/datasets/ehe07/gpt-failure-cases-dataset
 
 All final figures and tables are available in the `materials/` folder.
 
