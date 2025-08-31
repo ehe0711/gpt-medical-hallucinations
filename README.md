@@ -20,9 +20,8 @@ We benchmark hallucination rates, analyze confidence reliability, and provide re
 ```
 ├─ code/          # Core analysis scripts
 ├─ data/          # Dataset instructions + small samples (no raw MedQuAD)
-├─ materials/     # Figures and tables
-├─ paper/         # Manuscript sources (Word, LaTeX, references)
-└─ results/       # Outputs, metrics, and generated figures
+├─ materials/     # All outputs: figures, tables, and result files
+└─ paper/         # Manuscript sources (Word, LaTeX, references)
 ```
 
 **Key scripts:**
@@ -67,7 +66,7 @@ python code/gpt5_hallucination_coding.py
 python code/hallucination_analysis.py
 ```
 
-Results will be saved in `results/`.
+Outputs (tables and figures) will be stored in `materials/`.
 
 ---
 
@@ -77,7 +76,7 @@ Results will be saved in `results/`.
 - Calibration improved, with fewer high-confidence hallucinations.  
 - Overconfidence persisted — confidence alone is insufficient as a safety metric.  
 
-Figures are in `materials/figures/` and outputs in `results/`.
+All final figures and tables are available in the `materials/` folder.
 
 ---
 
