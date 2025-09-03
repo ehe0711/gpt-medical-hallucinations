@@ -87,7 +87,7 @@ If you use this work, please cite:
 ```bibtex
 @article{he2025hallucinations,
   title={Benchmarking Hallucination Detection and Calibration in Medical LLMs},
-  author={He, Ethan and Liu, Angela},
+  author={He, Ethan},
   year={2025},
   note={Preprint}
 }
