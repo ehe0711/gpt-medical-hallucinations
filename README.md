@@ -21,7 +21,7 @@ We benchmark hallucination rates, analyze confidence reliability, and provide re
 ├─ code/          # Core analysis scripts
 ├─ data/          # Dataset instructions + small samples (no raw MedQuAD)
 ├─ materials/     # All outputs: figures, tables, and result files
-└─ paper/         # Manuscript sources (Word, LaTeX, references)
+└─ findings/         # Manuscript sources (Word, LaTeX, references)
 ```
 
 **Key scripts:**
